@@ -16,7 +16,7 @@ const Navbar = () => {
                             <img src={Logo} alt="logo" className='w-44 md:w-64' />
                         </NavLink>
                         <button
-                            className="text-orange-600 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                            className="text-[#FF0000] cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
                             onClick={() => setNavbarOpen(!navbarOpen)}
                         >
@@ -36,31 +36,31 @@ const Navbar = () => {
                             </li>
                             <li className="flex">
                                 <NavLink to="/brother" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1  text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Brother</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1  text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Brother</NavLink>
                             </li>
                             <li className="flex my-2">
                                 <NavLink to="/canon" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1 text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Canon</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1 text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Canon</NavLink>
                             </li>
                             <li className="flex my-2">
                                 <NavLink to="/epson" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1 text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Epson</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1 text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Epson</NavLink>
                             </li>
                             <li className="flex my-2">
                                 <NavLink to="/hp" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1 text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Hp</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1 text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Hp</NavLink>
                             </li>
                             <li className="flex my-2">
                                 <NavLink to="/samsung" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1 text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Samsung</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1 text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>Samsung</NavLink>
                             </li>
                             <li className="flex my-2">
                                 <NavLink to="/allprinters" className={({ isActive }) =>
-                                    isActive ? 'flex items-center px-4 -mb-1 text-orange-600' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>All Printers</NavLink>
+                                    isActive ? 'flex items-center px-4 -mb-1 text-[#FF0000]' : 'flex items-center px-4 -mb-1 border-b-2 border-transparent'}>All Printers</NavLink>
                             </li>
                             <li className="flex">
                                 <NavLink to="/login" className={({ isActive }) =>
-                                    isActive ? 'outline outline-4 flex items-center px-4 -mb-1 text-orange-600' : 'outline outline-4 flex items-center px-4 -mb-1 border-b-2 border-transparent'}>
+                                    isActive ? 'outline outline-4 flex items-center px-4 -mb-1 text-[#FF0000]' : 'outline outline-4 flex items-center px-4 -mb-1 border-b-2 border-transparent'}>
                                     <button className="md:px-4 md:py-2 rounded dark:bg-violet-400 dark:text-gray-900 font-bold">Log in</button>
                                 </NavLink>
                             </li>

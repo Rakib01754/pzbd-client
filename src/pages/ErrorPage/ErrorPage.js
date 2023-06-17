@@ -1,9 +1,16 @@
 import React from 'react';
+import { Link, useRouteError } from 'react-router-dom';
 
 const ErrorPage = () => {
+    const error = useRouteError();
     return (
-        <div>
-            This is Error Page.
+        <div class="grid h-screen px-4 bg-white place-content-center">
+            <h1 class="tracking-widest text-gray-500 text-xl uppercase">{error.status} |{error.statusText}</h1>
+            <Link to='/'>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold hover:text-white py-2 px-4 rounded my-3">
+                    Back To Home
+                </button>
+            </Link>
         </div>
     );
 };
