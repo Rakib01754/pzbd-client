@@ -15,7 +15,7 @@ const Banner = () => {
         <div>
             <Carousel autoPlay>
                 <div>
-                    <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div class="px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                             <div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
                                 <div class="max-w-md mx-auto text-center lg:text-left">
@@ -79,7 +79,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div class="px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                             <div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
                                 <div class="max-w-md mx-auto text-center lg:text-left">
@@ -143,7 +143,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div class="px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                             <div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
                                 <div class="max-w-md mx-auto text-center lg:text-left">

@@ -4,7 +4,7 @@ import logo from '../../assets/pzbd.png'
 const Footer = () => {
     return (
         <div>
-            <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-gray-50">
+            <div className="px-4 pt-16 mx-auto w-full md:px-24 lg:px-8 bg-gray-50">
                 <div className="grid gap-4 row-gap-10 mb-8 sm:grid-cols-2 lg:grid-cols-4">
                     <div className="sm:col-span-2">
                         <a
@@ -16,13 +16,11 @@ const Footer = () => {
                             <img src={logo} className='w-52' alt="" />
                         </a>
                         <div className="mt-6 lg:max-w-sm">
-                            <p className="text-sm text-gray-800">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam.
-                            </p>
-                            <p className="mt-4 text-sm text-gray-800">
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
+                            <p className="text-sm font-semibold text-gray-800">
+                                “Offering Technology Solutions to Business Needs” <br />
+                                “Optimizing and Merging People, Process and Technology” <br />
+                                “Improving and Maintaining Quality” <br />
+                                “Validating and Verifying IT Systems”
                             </p>
                         </div>
                     </div>
@@ -31,29 +29,34 @@ const Footer = () => {
                             Contacts
                         </p>
                         <div className="flex">
-                            <p className="mr-1 text-gray-800 font-bold">Phone:</p>
+                            <p className="mr-1 text-gray-800 font-bold">Hotline:</p>
+                            <br />
                             <a
                                 href="tel:850-123-5021"
                                 aria-label="Our phone"
                                 title="Our phone"
                                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                             >
-                                01324202456
+
+                                +88 01324-202456
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1 text-gray-800 font-bold">Email:</p>
+                            <br />
                             <a
                                 href="mailto:info@lorem.mail"
                                 aria-label="Our email"
                                 title="Our email"
                                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                             >
+
                                 sales.printerzonebd@gmail.com
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1 text-gray-800 font-bold">Address:</p>
+                            <br />
                             <a
                                 href="https://www.google.com/maps"
                                 target="_blank"
@@ -62,6 +65,7 @@ const Footer = () => {
                                 title="Our address"
                                 className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                             >
+
                                 1307/D, Kazipara, Mirpur, Dhaka-1216
                             </a>
                         </div>
@@ -98,9 +102,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <p className="mt-4 text-md text-gray-500">
-                            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-                            spare ribs salami.
-                        </p>
+                            Stay Connected to Our Social Media for Latest Update.</p>
                     </div>
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">

@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Main from '../Layout/Main/Main';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
+import BrandWiseProduct from '../pages/BrandWiseProduct/BrandWiseProduct';
 
 const Routes = () => {
     const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const Routes = () => {
                 {
                     path: '/',
                     element: <Home></Home>
+                },
+                {
+                    path: '/brother',
+                    element: <BrandWiseProduct></BrandWiseProduct>
                 }
             ]
         }
